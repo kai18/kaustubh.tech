@@ -1,0 +1,44 @@
+
+
+.parallax-container {
+    position: relative;
+      height: 550px;
+    }
+
+
+.about
+{
+    background-image: url("../img/background-4.png");
+    position: relative;
+    height: 500px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.project
+{
+    position: relative;
+    height: 600px;
+    max-width: 100%;
+}
+.panel
+{
+    background: transparent;
+    margin-top: 10%;
+    padding-top: 20%;
+}
+.p1
+{
+    background-image: url("../img/background-2.png");
+    background-repeat: no-repeat;
+
+}
+
+.quote
+{
+    font-size: 20px;
+    font-style: italic;
+    f
+
+}
+

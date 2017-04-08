@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory --> 
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+            <nav class="fixed">
+                <div class="midnightHeader default">
+                    <a class="logo">Logo</a>
+                </div>
+            </nav>
+        </div>
+
+        <section class="midnightHeader fjords" data-midnight="white">
+            <article>
+             <a class="logo"><span>whoooodfdjfkdjfkfj</span></a>
+                <h1>Adding Subtle UI Details</h1>
+                <p>Using Midnight.js, Wow.js and Animate.css</p>
+            </article>
+        </section>
+        <div class="midnightHeader butterfly">
+            <a class="logo">Logo</a>
+            <span class="a-butterfly"><Everybody loves butterflies</span>
+            <span class="another-butterfly"> OH GOD THEY ARE IN MY FACE</span>
+            <span class="yet-another-butterfly">AAAAAHHHHHHHHHHHHHHHHHHHHH</span>
+        </div>
+
+        <section class="midnightHeader ships" data-midnight="gray">
+            <article>
+             <a class="logo">WHOOOO!!!!</a>
+                <h1>Be quiet</h1>
+                <p>I'm hunting wabbits</p>
+            </article>
+        </section>
+
+        <section class="puppy" data-midnight="pink">
+          <article>
+            <h1>OMG A PUPPY &lt;3</h1>
+          </article>
+        </section>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script src="js/midnight.jquery.min.js"></script>
+        <script>
+            // Start midnight
+            $(document).ready(function(){
+                // Change this to the correct selector for your nav.
+                $('nav.fixed').midnight();
+            });
+        </script>
+
+    </body>
