@@ -1,0 +1,12 @@
+{
+  "name": "kaustubh/kaustubh.tech",
+  "description": "My Portfolio and Blog",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Kaustubh",
+      "email": "kaustubh0163@gmail.com"
+    }
+  ]
+}
